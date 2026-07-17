@@ -75,23 +75,24 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { name: "author", content: "SpindleDrive" },
       { name: "theme-color", content: "#0B1F3A" },
-      { property: "og:title", content: "SpindleDrive — Smart Motion. Stronger Looms." },
+      { property: "og:title", content: "SpindleDrive — Smart Retrofit Actuator for Textile Looms" },
       {
         property: "og:description",
         content:
-          "Retrofit smart actuator that transforms mechanical power looms into precision Industry 4.0 weaving machines.",
+          "SpindleDrive is a modular smart rotary actuator that upgrades traditional power looms into Industry 4.0 machines at 1/10th the cost of imported equipment. Built in Punjab.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "SpindleDrive — Smart Motion. Stronger Looms." },
+      { name: "twitter:title", content: "SpindleDrive — Smart Retrofit Actuator for Textile Looms" },
       {
         name: "twitter:description",
-        content: "Upgrade existing looms to Industry 4.0 at 1/10th the cost. 6-month ROI.",
+        content: "SpindleDrive is a modular smart rotary actuator that upgrades traditional power looms into Industry 4.0 machines at 1/10th the cost of imported equipment. Built in Punjab.",
       },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/855045f0-d3aa-4b6c-af02-a6505a3d3071" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/855045f0-d3aa-4b6c-af02-a6505a3d3071" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
-      { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {
