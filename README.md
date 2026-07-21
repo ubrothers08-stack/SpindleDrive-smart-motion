@@ -1,13 +1,97 @@
-const SOCIAL_PREVIEW_URL =
-  "https://spindle-smart-motion.lovable.app/spindledrive-github-social-preview.jpg";
+# 🚀 SpindleDrive – Smart Motion
 
-export const Route = createFileRoute("/")({
-  head: () => ({
-    meta: [
-      { property: "og:image", content: SOCIAL_PREVIEW_URL },
-      { name: "twitter:image", content: SOCIAL_PREVIEW_URL },
-    ],
-  }),
-  component: Landing,
-});
+SpindleDrive is a modern website showcasing an innovative modular smart rotary actuator designed for industrial automation, robotics, and smart manufacturing.
 
+The project demonstrates how intelligent motion control can improve efficiency, precision, and reliability in next-generation industrial systems.
+
+## 🌐 Live Demo
+
+https://spindle-smart-motion.lovable.app
+
+## ✨ Features
+
+- Modern responsive design
+- Smooth animations
+- Clean user interface
+- Mobile friendly
+- Fast loading
+- Industrial branding
+- Built with React + TypeScript + Vite
+
+## 🛠️ Tech Stack
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- TanStack Router
+- Lovable
+
+## 📂 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/ubrothers08-stack/SpindleDrive-smart-motion.git
+```
+
+Go to the project folder
+
+```bash
+cd SpindleDrive-smart-motion
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
+
+```bash
+npm run dev
+```
+
+Open
+
+```
+http://localhost:5173
+```
+
+## 📁 Project Structure
+
+```
+src/
+├── components/
+├── pages/
+├── assets/
+├── hooks/
+├── styles/
+└── routes/
+```
+
+## 🎯 Vision
+
+SpindleDrive aims to simplify industrial motion control by combining smart electronics, modular design, and precision engineering into a single platform.
+
+## 📸 Preview
+
+Visit the live website:
+
+https://spindle-smart-motion.lovable.app
+
+## 👨‍💻 Author
+
+**Muhammad Ubaidullah**
+
+BS Mechatronics & Control Engineering
+
+University of Engineering and Technology (UET)
+
+GitHub:
+https://github.com/ubrothers08-stack
+
+---
+
+Made with ❤️ using React, TypeScript and Lovable.
