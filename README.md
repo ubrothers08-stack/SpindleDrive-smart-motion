@@ -87,7 +87,7 @@ https://spindle-smart-motion.lovable.app
 
 BS Mechatronics & Control Engineering
 
-University of Engineering and Technology (UET)
+University of Engineering and Technology, Lahore - Faisalabad Campus
 
 GitHub:
 https://github.com/ubrothers08-stack
