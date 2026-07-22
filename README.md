@@ -84,6 +84,7 @@ https://spindle-smart-motion.lovable.app
 ## 👨‍💻 Author
 
 **Muhammad Ubaidullah**
+**Intern no. 292**
 
 BS Mechatronics & Control Engineering
 
