@@ -356,21 +356,20 @@ function Particles() {
         const left = (i * 53) % 100;
         const top = (i * 37) % 100;
         const size = 2 + (i % 3);
+        const style = {
+          left: `${left}%`,
+          top: `${top}%`,
+          width: size,
+          height: size,
+          "--dx": `${(i % 2 === 0 ? 1 : -1) * (30 + (i % 5) * 8)}px`,
+          "--dy": `${-(50 + (i % 6) * 12)}px`,
+          animation: `particle-drift ${8 + (i % 5)}s ease-out ${i * 0.4}s infinite`,
+        } as React.CSSProperties;
         return (
           <span
             key={i}
             className="absolute rounded-full bg-brand/40"
-            style={{
-              left: `${left}%`,
-              top: `${top}%`,
-              width: size,
-              height: size,
-              // @ts-expect-error custom prop
-              "--dx": `${(i % 2 === 0 ? 1 : -1) * (30 + (i % 5) * 8)}px`,
-              // @ts-expect-error custom prop
-              "--dy": `${-(50 + (i % 6) * 12)}px`,
-              animation: `particle-drift ${8 + (i % 5)}s ease-out ${i * 0.4}s infinite`,
-            }}
+            style={style}
           />
         );
       })}
